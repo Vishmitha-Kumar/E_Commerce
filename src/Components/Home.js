@@ -1,60 +1,62 @@
-import React, { useState } from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
-} from 'reactstrap';
+import React from "react";
+import Navb from "./Navb";
+import { UncontrolledCarousel } from "reactstrap";
 
-const Example = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
 
-  return (
-    <div>
-      <Navbar color="warning" light expand="lg">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/components/">Home</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="">About</NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Courses
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Java
-                </DropdownItem>
-                <DropdownItem>
-                  Python
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Web
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-          </Nav>
-          <NavbarText>Simple Text</NavbarText>
-        </Collapse>
-      </Navbar>
-    </div>
+const items = [
+
+  {
+
+    src: "https://play-lh.googleusercontent.com/GNgo1XbMUJ8ba66p-9IdpIBEkhnDWtrVLAafDyRAmbeCpAbD6pCy88mvmVeWcKRDu18=w526-h296-rw",
+
+    altText: 'Arch',
+
+    caption: '1',
+
+    header: 'Arch',
+
+    key: '1'
+
+  },
+
+  {
+
+    src: "https://play-lh.googleusercontent.com/GNgo1XbMUJ8ba66p-9IdpIBEkhnDWtrVLAafDyRAmbeCpAbD6pCy88mvmVeWcKRDu18=w526-h296-rw",
+
+    altText: 'Slide 2',
+
+    caption: '2',
+
+    header: 'Tulip',
+
+    key: '2'
+
+  },
+
+  {
+
+    src: "https://play-lh.googleusercontent.com/GNgo1XbMUJ8ba66p-9IdpIBEkhnDWtrVLAafDyRAmbeCpAbD6pCy88mvmVeWcKRDu18=w526-h296-rw",
+
+    altText: 'Slide 3',
+
+    caption: '3',
+
+    header: 'Lion',
+
+    key: '3'
+
+  }
+
+];
+
+function Home(){
+  return(
+    <>
+      <Navb/>
+      <UncontrolledCarousel items={items} />
+
+    </>
   );
 }
-
-export default Example;
+export default Home;
