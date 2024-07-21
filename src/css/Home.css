@@ -117,6 +117,7 @@
     text-align: center;
     color: var(--blue);
     transition: 0.3s;
+    border-style:groove;
   }
   
   .booking::before {
@@ -282,4 +283,4 @@
   h1 {
     margin: 10px 20px;
   }
-  
+ 

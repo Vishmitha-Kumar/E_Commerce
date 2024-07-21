@@ -107,10 +107,8 @@ function Home(){
   </Row>
 </Container>
 </div>
-{/* <div style={{margin:'10px'}}>
-  <img src={Offer} style={{width:'100%'}}></img>
-</div> */}
   <div>
+    <Container>
       <h4 style={{ margin: '50px', fontWeight: 'bolder', fontStyle: 'initial' }}>Start your cart</h4>
 
       <ul>
@@ -121,7 +119,7 @@ function Home(){
             </div>
           </div>
           <div className="informations-container">
-            <h2 className="titlebook">Banana</h2>
+            <h2 className="titlebook">Banana Bunch</h2>
             <p className="price" />
             <div className="more-information">
               <div className="info-and-date-container">
@@ -132,7 +130,217 @@ function Home(){
             </div>
           </div>
         </li>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_12ade01a54ff4859a2f9fa4deaf534a3~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_12ade01a54ff4859a2f9fa4deaf534a3~mv2.jpg)' }}>
+          <div className="book-container">
+            <div className="content">
+              <button className="btn">Add to cart</button>
+            </div>
+          </div>
+          <div className="informations-container">
+            <h2 className="titlebook">Whole Milk Gallon</h2>
+            <p className="price" />
+            <div className="more-information">
+              <div className="info-and-date-container">
+                <div className="box info">
+                  <p>Price: Rs.80</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_6846a2d83d89405eb592b3f0dc2d683b~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_6846a2d83d89405eb592b3f0dc2d683b~mv2.jpg)' }}>
+          <div className="book-container">
+            <div className="content">
+              <button className="btn">Add to cart</button>
+            </div>
+          </div>
+          <div className="informations-container">
+            <h2 className="titlebook">Natural Large White Egg</h2>
+            <p className="price" />
+            <div className="more-information">
+              <div className="info-and-date-container">
+                <div className="box info">
+                  <p>Price: Rs.40</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_1fde242af834408c814fdbec3a1c7bd0~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_1fde242af834408c814fdbec3a1c7bd0~mv2.jpg)' }}>
+          <div className="book-container">
+            <div className="content">
+              <button className="btn">Add to cart</button>
+            </div>
+          </div>
+          <div className="informations-container">
+            <h2 className="titlebook">Whole Wheat Bread</h2>
+            <p className="price" />
+            <div className="more-information">
+              <div className="info-and-date-container">
+                <div className="box info">
+                  <p>Price: Rs.45</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_4da77aa2a0d64d599c150d9d023a931a~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_4da77aa2a0d64d599c150d9d023a931a~mv2.jpg)' }}>
+          <div className="book-container">
+            <div className="content">
+              <button className="btn">Add to cart</button>
+            </div>
+          </div>
+          <div className="informations-container">
+            <h2 className="titlebook">Cucumber</h2>
+            <p className="price" />
+            <div className="more-information">
+              <div className="info-and-date-container">
+                <div className="box info">
+                  <p>1kg--Price: Rs.45</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_b6904147666f40988c2b7c4bd616982c~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_b6904147666f40988c2b7c4bd616982c~mv2.jpg)' }}>
+          <div className="book-container">
+            <div className="content">
+              <button className="btn">Add to cart</button>
+            </div>
+          </div>
+          <div className="informations-container">
+            <h2 className="titlebook">Tomatoes</h2>
+            <p className="price" />
+            <div className="more-information">
+              <div className="info-and-date-container">
+                <div className="box info">
+                  <p>1kg--Price: Rs.85</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
       </ul>
+      </Container>
+    </div>
+    <div>
+      <img src="https://infoemsolutions.com/jana/3.jpg"  width='100%'/>
+    </div>
+    <div>
+    <Container>
+      <h4 style={{ margin: '50px', fontWeight: 'bolder', fontStyle: 'initial' }}>Shop Fresh Finds</h4>
+
+      <ul>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_b5b9284a44384c8dbce0bc27bad2dda4~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_b5b9284a44384c8dbce0bc27bad2dda4~mv2.jpg)' }}>
+          <div className="book-container">
+            <div className="content">
+              <button className="btn">Add to cart</button>
+            </div>
+          </div>
+          <div className="informations-container">
+            <h2 className="titlebook">Hash Avocados</h2>
+            <p className="price" />
+            <div className="more-information">
+              <div className="info-and-date-container">
+                <div className="box info">
+                  <p>1kg--Price: Rs.130</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_12ade01a54ff4859a2f9fa4deaf534a3~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_12ade01a54ff4859a2f9fa4deaf534a3~mv2.jpg)' }}>
+          <div className="book-container">
+            <div className="content">
+              <button className="btn">Add to cart</button>
+            </div>
+          </div>
+          <div className="informations-container">
+            <h2 className="titlebook">Whole Milk Gallon</h2>
+            <p className="price" />
+            <div className="more-information">
+              <div className="info-and-date-container">
+                <div className="box info">
+                  <p>Price: Rs.80</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_6846a2d83d89405eb592b3f0dc2d683b~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_6846a2d83d89405eb592b3f0dc2d683b~mv2.jpg)' }}>
+          <div className="book-container">
+            <div className="content">
+              <button className="btn">Add to cart</button>
+            </div>
+          </div>
+          <div className="informations-container">
+            <h2 className="titlebook">Natural Large White Egg</h2>
+            <p className="price" />
+            <div className="more-information">
+              <div className="info-and-date-container">
+                <div className="box info">
+                  <p>Price: Rs.40</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_1fde242af834408c814fdbec3a1c7bd0~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_1fde242af834408c814fdbec3a1c7bd0~mv2.jpg)' }}>
+          <div className="book-container">
+            <div className="content">
+              <button className="btn">Add to cart</button>
+            </div>
+          </div>
+          <div className="informations-container">
+            <h2 className="titlebook">Whole Wheat Bread</h2>
+            <p className="price" />
+            <div className="more-information">
+              <div className="info-and-date-container">
+                <div className="box info">
+                  <p>Price: Rs.45</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_4da77aa2a0d64d599c150d9d023a931a~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_4da77aa2a0d64d599c150d9d023a931a~mv2.jpg)' }}>
+          <div className="book-container">
+            <div className="content">
+              <button className="btn">Add to cart</button>
+            </div>
+          </div>
+          <div className="informations-container">
+            <h2 className="titlebook">Cucumber</h2>
+            <p className="price" />
+            <div className="more-information">
+              <div className="info-and-date-container">
+                <div className="box info">
+                  <p>1kg--Price: Rs.45</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_b6904147666f40988c2b7c4bd616982c~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_b6904147666f40988c2b7c4bd616982c~mv2.jpg)' }}>
+          <div className="book-container">
+            <div className="content">
+              <button className="btn">Add to cart</button>
+            </div>
+          </div>
+          <div className="informations-container">
+            <h2 className="titlebook">Tomatoes</h2>
+            <p className="price" />
+            <div className="more-information">
+              <div className="info-and-date-container">
+                <div className="box info">
+                  <p>1kg--Price: Rs.85</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      </Container>
     </div>
     </>
   );
