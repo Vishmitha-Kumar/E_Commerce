@@ -196,7 +196,7 @@ function Home(){
             <div className="more-information">
               <div className="info-and-date-container">
                 <div className="box info">
-                  <p>1kg--Price: Rs.45</p>
+                  <p>1Kg--Price: Rs.45</p>
                 </div>
               </div>
             </div>
@@ -214,7 +214,7 @@ function Home(){
             <div className="more-information">
               <div className="info-and-date-container">
                 <div className="box info">
-                  <p>1kg--Price: Rs.85</p>
+                  <p>1Kg--Price: Rs.85</p>
                 </div>
               </div>
             </div>
@@ -243,97 +243,97 @@ function Home(){
             <div className="more-information">
               <div className="info-and-date-container">
                 <div className="box info">
-                  <p>1kg--Price: Rs.130</p>
+                  <p>1Kg--Price: Rs.130</p>
                 </div>
               </div>
             </div>
           </div>
         </li>
-        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_12ade01a54ff4859a2f9fa4deaf534a3~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_12ade01a54ff4859a2f9fa4deaf534a3~mv2.jpg)' }}>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_80f5d413ccd44506ba12f7975cb37fa3~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_80f5d413ccd44506ba12f7975cb37fa3~mv2.jpg)' }}>
           <div className="book-container">
             <div className="content">
               <button className="btn">Add to cart</button>
             </div>
           </div>
           <div className="informations-container">
-            <h2 className="titlebook">Whole Milk Gallon</h2>
+            <h2 className="titlebook">Navel Orange</h2>
             <p className="price" />
             <div className="more-information">
               <div className="info-and-date-container">
                 <div className="box info">
-                  <p>Price: Rs.80</p>
+                  <p>1Kg--Price: Rs.180</p>
                 </div>
               </div>
             </div>
           </div>
         </li>
-        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_6846a2d83d89405eb592b3f0dc2d683b~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_6846a2d83d89405eb592b3f0dc2d683b~mv2.jpg)' }}>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_7f6d45dc2b004e88ac1f4eee127ff332~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_7f6d45dc2b004e88ac1f4eee127ff332~mv2.jpg)' }}>
           <div className="book-container">
             <div className="content">
               <button className="btn">Add to cart</button>
             </div>
           </div>
           <div className="informations-container">
-            <h2 className="titlebook">Natural Large White Egg</h2>
+            <h2 className="titlebook">Strawberries</h2>
             <p className="price" />
             <div className="more-information">
               <div className="info-and-date-container">
                 <div className="box info">
-                  <p>Price: Rs.40</p>
+                  <p>1Kg--Price: Rs.190</p>
                 </div>
               </div>
             </div>
           </div>
         </li>
-        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_1fde242af834408c814fdbec3a1c7bd0~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_1fde242af834408c814fdbec3a1c7bd0~mv2.jpg)' }}>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_15202cd4220942879ef52cd80823bb30~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_15202cd4220942879ef52cd80823bb30~mv2.jpg)' }}>
           <div className="book-container">
             <div className="content">
               <button className="btn">Add to cart</button>
             </div>
           </div>
           <div className="informations-container">
-            <h2 className="titlebook">Whole Wheat Bread</h2>
+            <h2 className="titlebook">Ripe Apple</h2>
             <p className="price" />
             <div className="more-information">
               <div className="info-and-date-container">
                 <div className="box info">
-                  <p>Price: Rs.45</p>
+                  <p>1Kg--Price: Rs.145</p>
                 </div>
               </div>
             </div>
           </div>
         </li>
-        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_4da77aa2a0d64d599c150d9d023a931a~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_4da77aa2a0d64d599c150d9d023a931a~mv2.jpg)' }}>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_1b506c21a43e46338d166ea6b5168034~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_1b506c21a43e46338d166ea6b5168034~mv2.jpg)' }}>
           <div className="book-container">
             <div className="content">
               <button className="btn">Add to cart</button>
             </div>
           </div>
           <div className="informations-container">
-            <h2 className="titlebook">Cucumber</h2>
+            <h2 className="titlebook">Pear</h2>
             <p className="price" />
             <div className="more-information">
               <div className="info-and-date-container">
                 <div className="box info">
-                  <p>1kg--Price: Rs.45</p>
+                  <p>1Kg--Price: Rs.145</p>
                 </div>
               </div>
             </div>
           </div>
         </li>
-        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_b6904147666f40988c2b7c4bd616982c~mv2.jpg/v1/fill/w_257,h_257,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_b6904147666f40988c2b7c4bd616982c~mv2.jpg)' }}>
+        <li className="booking" style={{ backgroundImage: 'url(https://static.wixstatic.com/media/c837a6_425b5fac1bc5421eb1308140de5f20db~mv2.jpg/v1/fill/w_210,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_425b5fac1bc5421eb1308140de5f20db~mv2.jpg)' }}>
           <div className="book-container">
             <div className="content">
               <button className="btn">Add to cart</button>
             </div>
           </div>
           <div className="informations-container">
-            <h2 className="titlebook">Tomatoes</h2>
+            <h2 className="titlebook">Farm Fresh Carrots</h2>
             <p className="price" />
             <div className="more-information">
               <div className="info-and-date-container">
                 <div className="box info">
-                  <p>1kg--Price: Rs.85</p>
+                  <p>1Kg--Price: Rs.185</p>
                 </div>
               </div>
             </div>
@@ -342,6 +342,51 @@ function Home(){
       </ul>
       </Container>
     </div>
+    <div style={{marginTop:'10px'}}>
+
+<Row style={{backgroundColor:'#AFE1AF',width:'100%'}}>
+  
+<Col md={4}>
+
+        <h4>MOST POPULAR CATEGORIES</h4>
+        <h6>Vegetables</h6>
+        <h6>Bakery</h6>
+        <h6>Wine</h6>
+        <h6>Dairy & Eggs</h6>
+        <h6>Meat & Poultry</h6>
+        <h6>Soft Drinks</h6>
+        <h6>Cleaning Supplies</h6>
+        <h6>Cereal & Snacks</h6>
+        
+        
+        </Col>
+        <Col md={4}>
+
+        <h4>CUSTOMER SERVICES</h4>
+        <h6>About Us</h6>
+        <h6>FAQ</h6>
+        <h6>Terms and conditions</h6>
+        <h6>Privacy policy</h6>
+        <h6>Cancellation and return policy</h6>
+        <h6>E-waste Policy</h6>
+
+       
+      
+        </Col>
+        <Col md={4}>
+
+        <h4>CONTACT US</h4>
+        <h6>WhatsApp us :</h6>
+        <h6>70003 70003</h6>
+        <h6>Call Us :</h6>
+        <h6>1800 890 1222</h6>
+        <h6>www.jaganonlinemart.com</h6>
+        <h6>Should you encounter any bugs, glitches, lack of functionality, delayed deliveries, billing errors or other problems on the beta website, please email us on</h6>
+        <h6>jaganmech107@gmail.com</h6>
+        </Col>
+</Row>
+<h5 style={{paddingLeft:'33%'}}>© 2022 All rights reserved.Clovers Retail Ltd.</h5>
+</div>
     </>
   );
 }
